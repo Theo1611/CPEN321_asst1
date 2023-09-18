@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">assignment1</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="fav_city_caption">My Favorite City</string>
+    <string name="phone_info_caption">Phone Details</string>
+    <string name="login_server_caption">Login and Server Info</string>
+    <string name="surprise_caption">Surprise</string>
+    <string name="location_caption">Device Location:</string>
+    <string name="manufacturer_caption">Device Manufacturer:</string>
+    <string name="model_caption">Device Model:</string>
+    <string name="server_ip_cation">Server IP Address:</string>
+    <string name="client_ip_caption">Client IP Address:</string>
+    <string name="server_time_caption">Server Local Time:</string>
+    <string name="client_time_caption">Client Local Time:</string>
+    <string name="my_name_caption">My Name:</string>
+    <string name="google_name_caption">Logged In:</string>
+    <string name="default_na_text">Not Available</string>
+    <string name="surprise_sudoku">Surprise Sudoku</string>
+    <string name="solve_sudoku">Solve Puzzle</string>
+    <string name="new_sudoku">New Puzzle</string>
+</resources>

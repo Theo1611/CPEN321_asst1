@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServerInfoActivity">
+    <TableRow>
+
+        <TextView
+            android:id="@+id/server_ip_caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/server_ip_cation" />
+
+        <TextView
+            android:id="@+id/server_ip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/default_na_text" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/client_ip_caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/client_ip_caption" />
+
+        <TextView
+            android:id="@+id/client_ip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/default_na_text" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/server_time_caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/server_time_caption" />
+
+        <TextView
+            android:id="@+id/server_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="start"
+            android:padding="3dip"
+            android:text="@string/default_na_text" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/client_time_caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/client_time_caption" />
+
+        <TextView
+            android:id="@+id/client_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/default_na_text" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/my_name_caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/my_name_caption" />
+
+        <TextView
+            android:id="@+id/my_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/default_na_text" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/google_name_caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/google_name_caption" />
+
+        <TextView
+            android:id="@+id/google_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="start"
+            android:padding="3dip"
+            android:text="@string/default_na_text" />
+    </TableRow>
+</TableLayout>
